@@ -1,8 +1,50 @@
 body {
-padding-top: 50px;
+	width: 100%;
+	height: 100%;
 }
 
-.top-header {
-	padding: 40px 15px;
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+ .navbar.navbar-dark.bg-primary {
+	margin-bottom: 0;
+	border: none;
+}
+
+.navbar-dark .navbar-header .navbar-brand {
+	color: #ffffff;
+}
+
+.nav.navbar-nav li a {
+	color: #ffffff;
+}
+
+
+.home {
+height: 100%;
+background-color: #e3f2fd;
+padding-top: 100px;
+text-align: center;
+}
+
+.projects {
+	height: 100%;
+	background-color: #cbe7fb;
+	padding-top: 150px;
 	text-align: center;
+}
+
+.contact {
+	height: 100%;
+	background-color: #b3dcfa;
+	padding-top: 150px;
+	text-align: center;	
 }
