@@ -20,4 +20,3 @@ $(function(scrollObject) {
         event.preventDefault();
     });
 });
-
