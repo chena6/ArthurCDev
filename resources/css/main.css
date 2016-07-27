@@ -14,18 +14,7 @@ html {
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
- .navbar.navbar-dark.bg-primary {
-	margin-bottom: 0;
-	border: none;
-}
 
-.navbar-dark .navbar-header .navbar-brand {
-	color: #ffffff;
-}
-
-.nav.navbar-nav li a {
-	color: #ffffff;
-}
 
 .home {
 	height: 100%;
@@ -35,8 +24,8 @@ html {
 }
 
 #face {
+	display: inline-block;
 	position: absolute;
-	top: 0;
 	left: 50px;
 }
 
@@ -45,31 +34,94 @@ html {
 	right: 15px;
 }
 
-#about-me {
-	position: relative;
-	left: 20px;
+.about {
+	padding-top: 50px;
+	height: 60%;
+	background-color: #cbe7fb;
 }
 
-.lead {
+.welcome.triggered #about-me {
 	position: relative;
-	top: 20px;
-	left: 250px;
-	line-height: 50px;
 	text-align: left;
+	left: 300px;
+	padding-bottom: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	animation: type 2s forwards steps(20, end);
+}
+
+.about .container .row .col-md-12 .blurb.triggered {
+	
+	position: relative;
+	left: 250px;
+	line-height: 25px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	animation: type 3s forwards steps(38,end);
+	}
+	
+.about .container .row .col-md-12 .blurb.triggered#l2 {
+  animation: type2 6s forwards steps(78, end);
+  
+}
+
+.about .container .row .col-md-12 .blurb.triggered#l3 {
+
+  animation: type2 8.5s forwards steps(73, end);
+}
+
+
+.about .container .row .col-md-12 .blurb.triggered#l4 {
+ 
+  animation: type3 10s steps(65, end);
+}
+
+.about .container .row .col-md-12 .blurb.triggered#l5 {
+  animation: type3 12.5s forwards steps(69, end);
+}
+
+.about .container .row .col-md-12 .blurb.triggered#l6 {
+  animation: type3 16s forwards steps(67, end);
+}
+
+.about .container .row .col-md-12 .blurb.triggered#l7 {
+  animation: type3 19s forwards steps(36, end);
+}
+
+.typinganimation {
+  animation: type 5s steps(35, end),
+  blink 1s infinite;
+}
+
+@keyframes blink {
+  to{opacity: 0;}
+}
+
+@keyframes type {
+	from {width: 0; }
+	to {width: 100%; }
+}
+
+@keyframes type2 {
+	0% {width: 0;}
+	50% {width: 0;}
+	100% {width 100%;}
+}
+
+@keyframes type3 {
+	0% {width: 0;}
+	60% {width: 0;}
+	100% {width 100%;}
 }
 
 
 .projects {
 	height: 100%;
-	background-color: #cbe7fb;
-	padding-top: 150px;
-	text-align: center;
-}
-
-.contact {
-	height: 100%;
 	background-color: #b3dcfa;
-	padding-top: 150px;
-	text-align: center;	
+	padding-top: 50px;
+	text-align: center;
 }
 
