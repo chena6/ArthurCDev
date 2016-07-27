@@ -27,13 +27,37 @@ html {
 	color: #ffffff;
 }
 
-
 .home {
-height: 100%;
-background-color: #e3f2fd;
-padding-top: 100px;
-text-align: center;
+	height: 100%;
+	background-color: #e3f2fd;
+	padding-top: 100px;
+	text-align: center;
 }
+
+#face {
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+.glyphicon-console {
+	position: relative; 
+	right: 15px;
+}
+
+#about-me {
+	position: relative;
+	left: 20px;
+}
+
+.lead {
+	position: relative;
+	top: 20px;
+	left: 250px;
+	line-height: 50px;
+	text-align: left;
+}
+
 
 .projects {
 	height: 100%;
@@ -48,3 +72,4 @@ text-align: center;
 	padding-top: 150px;
 	text-align: center;	
 }
+
