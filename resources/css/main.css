@@ -35,7 +35,7 @@ html {
 	.about .container .row .col-md-12 .blurb.triggered {
 		overflow: scroll;
 		white-space: normal;
-
+		width: 0%;
 	}
 	
 	.about {
@@ -61,6 +61,7 @@ html {
 	padding-top: 50px;
 	height: 50%;
 	background-color: #cbe7fb;
+	background-size: cover;
 }
 
 .welcome.triggered #about-me {
