@@ -38,6 +38,10 @@ html {
 
 	}
 	
+	.about {
+		height: 100%;
+	}
+	
 }
 
 #face {
