@@ -47,8 +47,8 @@ html {
 	padding-bottom: 25px;
 	overflow: hidden;
 	white-space: nowrap;
-	width: 100%;
-	animation: type 2s forwards steps(20, end);
+	width: 0%;
+	animation: type 3s forwards steps(20, end); 
 }
 
 .about .container .row .col-md-12 .blurb.triggered {
@@ -59,37 +59,41 @@ html {
 	text-align: left;
 	overflow: hidden;
 	white-space: nowrap;
-	width: 100%;
-	animation: type 3s forwards steps(38,end);
+	width: 0%;
+	animation: type 5s 2s forwards steps(38,end);
 	}
 	
 .about .container .row .col-md-12 .blurb.triggered#l2 {
-  animation: type2 6s forwards steps(78, end);
+	width: 100%;
+	animation: type2 6s forwards steps(78, end);
   
 }
 
 .about .container .row .col-md-12 .blurb.triggered#l3 {
-
-  animation: type2 8.5s forwards steps(73, end);
+	width: 100%;
+	animation: type2 8.5s forwards steps(73, end);
 }
 
 
 .about .container .row .col-md-12 .blurb.triggered#l4 {
- 
-  animation: type3 10s steps(65, end);
+	width: 100%;
+	animation: type3 10s forwards steps(65, end);
 }
 
 .about .container .row .col-md-12 .blurb.triggered#l5 {
-  animation: type3 12.5s forwards steps(69, end);
+	width: 100%;
+	animation: type3 12.5s forwards steps(69, end);
 }
 
 .about .container .row .col-md-12 .blurb.triggered#l6 {
-  animation: type3 16s forwards steps(67, end);
+	width: 100%;
+	animation: type3 16s forwards steps(67, end);
 }
 
 .about .container .row .col-md-12 .blurb.triggered#l7 {
-  animation: type3 19s forwards steps(36, end);
-}
+	animation: type3 19s forwards steps(36, end);
+	width: 100%;
+	}
 
 .typinganimation {
   animation: type 5s steps(35, end),
@@ -101,7 +105,7 @@ html {
 }
 
 @keyframes type {
-	from {width: 0; }
+	from {width: 0%; }
 	to {width: 100%; }
 }
 
