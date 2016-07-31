@@ -5,9 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> Arthur Chen Website </title> <! -- title of website -->
-<link href="resources/css/bootstrap.min.css" rel="stylesheet" >
-<link href="resources/css/main.css" rel="stylesheet">
-<link href="resources/images/arthur-favicon.png" rel="icon" type="image/png" />
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/css/main.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="resources/images/arthur-favicon.png" type="image/png" />
 
 </head>
 
@@ -29,7 +30,13 @@
             <li class="page-scroll"><a href="#about">About Me</a></li>
 			<li class="page-scroll"><a href="#projects">Projects</a></li>
           </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="github.com/chena6">Github</a></li>
+			<li><a href="#">LinkedIn</a></li>
+			<li><a href="#">Email</a></li>
         </div><!--/.nav-collapse -->
+		
       </div>
     </nav>
 	
@@ -37,7 +44,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-lg-12">
-					<h1></h1>
+					<div>
+					<button type="button" class="btn btn-primary btn-lg outline github-button" href="github.com/chena6">Github</button>
+					<button type="button" class="btn btn-primary btn-lg outline email-button">E-Mail</button>
+					<button type="button" class="btn btn-primary btn-lg outline resume-button">Resume</button>
 					</div>
 				</div>
 			</div>

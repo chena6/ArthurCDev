@@ -18,6 +18,56 @@ html {
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.btn {
+	position: relative;
+	margin-top: 33%;
+	vertical-align: center;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.github-button {
+	position: relative;
+	right: 25%;
+}
+
+.resume-button {
+	position: relative;
+	left: 25%;
+}
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+
 
 
 .home {
@@ -65,12 +115,10 @@ html {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	
 	line-height: 25px;
 	text-align: center;
 	overflow: hidden;
 	white-space: nowrap;
-	clip: auto;
 	width: 0%;
 	animation: type 5s 2s forwards steps(38,end);
 	}
@@ -99,7 +147,7 @@ html {
 
 .about .container .row .col-md-12 .blurb.triggered#l6 {
 	width: 100%;
-	animation: type3 16s forwards steps(67, end);
+	animation: type3 16s forwards steps(70, end);
 }
 
 .about .container .row .col-md-12 .blurb.triggered#l7 {
@@ -108,7 +156,7 @@ html {
 	}
 
 .typinganimation {
-  animation: type 5s steps(35, end),
+  animation: type3 5s steps(35, end),
   blink 1s infinite;
 }
 
@@ -141,7 +189,7 @@ html {
 	text-align: center;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
 	
 	
 	.about {
@@ -149,17 +197,33 @@ html {
 		}
 	
 	.about .container .row .col-md-12 .blurb.triggered {
-		overflow: normal;
 		white-space: normal;
 		width: 0%;
+		font-size: 80%;
 	}
 	
+	h1 {
+		font-size: 150%;
+	}
 	
+	p {
+		font-size: 80%;
+	}
+	
+
 }
 
 @media only screen and (max-width: 775px) {
 	img#face {
 		display: none;
+	}
+	
+	.github-button {
+		right: 0;
+	}
+	
+	.resume-button {
+		left: 0;
 	}
 }
 
