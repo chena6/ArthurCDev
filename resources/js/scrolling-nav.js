@@ -21,7 +21,7 @@ $(function(scrollObject) {
     });
 });
 
-(function($, win) {
+/*(function($, win) {
   $.fn.inViewport = function(cb) {
      return this.each(function(i,el){
        function visPx(){
@@ -41,3 +41,4 @@ $(".about .container .row .col-md-12 .blurb").inViewport(function(px){
 $(".welcome").inViewport(function(px){
     if(px) $(this).addClass('triggered');
 });
+*/

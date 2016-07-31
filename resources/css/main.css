@@ -196,10 +196,46 @@ html {
 		height: 100%;
 		}
 	
-	.about .container .row .col-md-12 .blurb.triggered {
+	.about .container .row .col-md-12 .blurb {
 		white-space: normal;
-		width: 0%;
+		width: 0;
 		font-size: 80%;
+	}
+	
+	#l2 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
+	}
+	
+	#l3 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
+	}
+	
+	#l4 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
+	}
+	
+	#l5 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
+	}
+	
+	#l6 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
+	}
+	
+	#l7 {
+		white-space: normal;
+		width: 0;
+		overflow: hidden;
 	}
 	
 	h1 {
