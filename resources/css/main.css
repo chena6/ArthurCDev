@@ -110,7 +110,7 @@ html {
 	animation: type 3s forwards steps(20, end); 
 }
 
-.about .container .row .col-md-12 .blurb.triggered {
+.about .container .row .col-md-12 .blurb {
 	font-size: 100%;
 	position: relative;
 	margin-left: auto;
@@ -120,6 +120,20 @@ html {
 	overflow: hidden;
 	white-space: nowrap;
 	width: 0%;
+}
+
+
+.about .container .row .col-md-12 .blurb.triggered {
+	/*font-size: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 25px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0%;
+	*/
 	animation: type 5s 2s forwards steps(38,end);
 	}
 	
@@ -200,42 +214,6 @@ html {
 		white-space: normal;
 		width: 0;
 		font-size: 80%;
-	}
-	
-	#l2 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
-	}
-	
-	#l3 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
-	}
-	
-	#l4 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
-	}
-	
-	#l5 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
-	}
-	
-	#l6 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
-	}
-	
-	#l7 {
-		white-space: normal;
-		width: 0;
-		overflow: hidden;
 	}
 	
 	h1 {

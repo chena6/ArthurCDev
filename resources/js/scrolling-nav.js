@@ -21,6 +21,48 @@ $(function(scrollObject) {
     });
 });
 
+$(document).ready(function(){
+	$('html').animate({scrollTop:0});
+	$('body').animate({scrollTop:0});
+	
+});
+
+$.fn.isVisible = function() {
+
+    var rect = this[0].getBoundingClientRect();
+    return (
+        (rect.height > 0 || rect.width > 0) &&
+        rect.bottom >= 0 &&
+        rect.right >= 0 &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+
+function checkVisibility() {
+
+
+
+if ($('.about .container .row .col-md-12 .blurb').isVisible()) {
+    $('.about .container .row .col-md-12 .blurb').addClass('triggered');
+};
+
+if ($(".welcome").isVisible()) {
+	$(".welcome").addClass('triggered');
+}
+
+}
+
+$(document).ready(function(){
+	checkVisibility();
+});
+
+$(window).scroll(function(){
+	checkVisibility();
+});
+
+
 /*(function($, win) {
   $.fn.inViewport = function(cb) {
      return this.each(function(i,el){
