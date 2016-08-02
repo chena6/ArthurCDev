@@ -19,7 +19,7 @@ html {
 }
 
 .my-name {
-	font-size: 800%;
+	font-size: 700%;
 	margin-top: 10%;
 	display:block;
 	white-space: normal;
@@ -72,7 +72,7 @@ html {
 
 .github-button {
 	position: relative;
-	right: 20%;
+	right: 10%;
 	
 }
 
@@ -85,7 +85,7 @@ html {
 
 .resume-button {
 	
-	left: 20%;
+	left: 10%;
 	position: relative;
 	display: inline-block;
 }
