@@ -18,6 +18,13 @@ html {
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
+.home {
+	height: 100%;
+	background-color: #e3f2fd;
+	padding-top: 100px;
+	text-align: center;
+}
+
 .my-name {
 	font-size: 700%;
 	margin-top: 10%;
@@ -46,8 +53,10 @@ html {
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-    color: #33a6cc;
+    color: #e3f2fd;
+	background-color: #0099cc;
     border-color: #33a6cc;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 }
 
 .btn-primary.outline:active, .btn-primary.outline.active {
@@ -76,6 +85,11 @@ html {
 	
 }
 
+p.hover-text {
+	font-size: 25%;
+	color: #e3f2fd;
+}
+
 .email-button {
 	
 	position: relative;
@@ -90,22 +104,15 @@ html {
 	display: inline-block;
 }
 
-
-
-
-
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
 
 
 
-
-.home {
-	height: 100%;
-	background-color: #e3f2fd;
-	padding-top: 100px;
-	text-align: center;
+.grow:hover { 
+	transition: all .2s ease-in-out;
+	transform: scale(1.1); 
 }
 
 
