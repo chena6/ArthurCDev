@@ -130,7 +130,7 @@ p.hover-text {
 }
 
 .about {
-	padding-top: 50px;
+	padding-top: 75px;
 	height: 60%;
 	background-color: #cbe7fb;
 	
@@ -235,10 +235,45 @@ p.hover-text {
 
 
 .projects {
-	height: 100%;
+	height: 200%;
 	background-color: #b3dcfa;
-	padding-top: 50px;
+	padding-top: 75px;
 	text-align: center;
+}
+
+.Beerd {
+	padding-top: 10%;
+}
+
+.BeerdTitle {
+	padding-bottom: 2.5%;
+}
+
+.projectgit {
+	font-size: 200%;
+}
+
+.Beerd-Pictures img {
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	padding: 5% 2.5% 5% 2.5%;
+}
+
+.Connect4Title {
+	padding-bottom: 2.5%;
+	padding-top: 10%;
+}
+
+.connect4git {
+	
+}
+
+.Connect4-Pictures img {
+	display: inline-block;
+	width: 45%;
+	height: 45%;
+	padding: 5% 2.5% 5% 2.5%;
 }
 
 @media only screen and (max-width: 400px) {
