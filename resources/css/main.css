@@ -235,7 +235,7 @@ p.hover-text {
 
 
 .projects {
-	height: 200%;
+	height: 300%;
 	background-color: #b3dcfa;
 	padding-top: 75px;
 	text-align: center;
@@ -265,9 +265,6 @@ p.hover-text {
 	padding-top: 10%;
 }
 
-.connect4git {
-	
-}
 
 .Connect4-Pictures img {
 	display: inline-block;
