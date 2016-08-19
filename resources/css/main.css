@@ -333,17 +333,16 @@ p.hover-text {
 	
 	.github-button {
 		padding: 0 2% 0 2%;
-		
 		display: inline-block;
 	}
 	
 	.resume-button {
 		padding: 0 2% 0 2%;
-		
 		display: inline-block;
 	}
 	
 	.email-button {
+		display: inline-block;
 		padding: 0 2% 0 2%;
 	}
 	
@@ -358,8 +357,21 @@ p.hover-text {
     text-transform: uppercase;
 	vertical-align: middle;
 	white-space: normal;
-	width: initial;
+	width: 25%;
+	height: 100px;
 	font-size: 150%;
+	}
+	
+	.fa.fa-github-alt {
+		font-size: 50px;
+	}
+	
+	.fa.fa-paper-plane {
+		font-size: 50px;
+	}
+	
+	.fa.fa-file-pdf-o {
+		font-size: 50px;
 	}
 	
 }
