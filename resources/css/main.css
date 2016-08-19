@@ -320,7 +320,7 @@ p.hover-text {
 @media only screen and (max-width: 767px) {
 	
 	.home {
-		height: 150%;
+		height: 100%;
 	}
 	
 	img#face {
@@ -334,17 +334,17 @@ p.hover-text {
 	.github-button {
 		right: 0;
 		
-		display: block;
+		display: inline-block;
 	}
 	
 	.resume-button {
 		left: 0;
 		
-		display: block;
+		display: inline-block;
 	}
 	
 	.email-button {
-		display: block;
+		display: inline-block;
 	}
 	
 	.btn {
