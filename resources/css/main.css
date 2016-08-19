@@ -1,29 +1,26 @@
 
-
 body {
-	
 	width: 100%;
 	height: 100%;
-}
+	}
 
 html {
-
 	width: 100%;
 	height: 100%;
-}
+	}
 
 .navbar {
 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
+	}
 
 .home {
 	height: 100%;
 	background-color: #e3f2fd;
 	padding-top: 100px;
 	text-align: center;
-}
+	}
 
 .my-name {
 	font-size: 700%;
@@ -31,39 +28,39 @@ html {
 	display:block;
 	white-space: normal;
 	font-family: 'Pacifico', cursive;
-}
+	}
 
 .firstname {
 	font-weight: bold;
 	color: #8c9398;
-}
+	}
 
 .lastname {
 	color: #c9c9c9;
-}
+	}
 
 .btn.outline {
     background: none;
     padding: 12px 22px;
-}
+	}
 
 .btn-primary.outline {
     border: 2px solid #0099cc;
     color: #0099cc;
-}
+	}
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
     color: #e3f2fd;
 	background-color: #0099cc;
     border-color: #33a6cc;
 	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
-}
+	}
 
 .btn-primary.outline:active, .btn-primary.outline.active {
     border-color: #007299;
     color: #007299;
     box-shadow: none;
-}
+	}
 
 .btn {
 	position: relative;
@@ -77,43 +74,43 @@ html {
 	white-space: normal;
 	width: 20%;
 	font-size: 400%;
-}
+	}
 
 .github-button {
 	position: relative;
 	right: 10%;
 	
-}
+	}
 
 p.hover-text {
 	font-size: 25%;
 	color: #e3f2fd;
-}
+	}
 
 .email-button {
 	
 	position: relative;
 	display: inline-block;
 	
-}
+	}
 
 .resume-button {
 	
 	left: 10%;
 	position: relative;
 	display: inline-block;
-}
-
+	}
+	
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
-}
+	}
 
 
 
 .grow:hover { 
 	transition: all .2s ease-in-out;
 	transform: scale(1.1); 
-}
+	}
 
 
 #face {
@@ -121,20 +118,19 @@ p.hover-text {
 	position: absolute;
 	margin-left: auto;
 	margin-right: 50px;
-	
-}
+	}
 
 .glyphicon-console {
 	position: relative; 
 	right: 15px;
-}
+	}
 
 .about {
 	padding-top: 75px;
 	height: 60%;
 	background-color: #cbe7fb;
 	
-}
+	}
 
 .welcome.triggered #about-me {
 	position: relative;
@@ -146,7 +142,7 @@ p.hover-text {
 	white-space: nowrap;
 	width: 0%;
 	animation: type 3s forwards steps(20, end); 
-}
+	}
 
 .about .container .row .col-md-12 .blurb {
 	font-size: 100%;
@@ -158,7 +154,7 @@ p.hover-text {
 	overflow: hidden;
 	white-space: nowrap;
 	width: 0%;
-}
+	}
 
 
 .about .container .row .col-md-12 .blurb.triggered {
@@ -179,28 +175,28 @@ p.hover-text {
 	width: 100%;
 	animation: type2 6s forwards steps(78, end);
   
-}
+	}
 
 .about .container .row .col-md-12 .blurb.triggered#l3 {
 	width: 100%;
 	animation: type2 8.5s forwards steps(73, end);
-}
+	}
 
 
 .about .container .row .col-md-12 .blurb.triggered#l4 {
 	width: 100%;
 	animation: type3 10s forwards steps(65, end);
-}
+	}
 
 .about .container .row .col-md-12 .blurb.triggered#l5 {
 	width: 100%;
 	animation: type3 12.5s forwards steps(69, end);
-}
+	}
 
 .about .container .row .col-md-12 .blurb.triggered#l6 {
 	width: 100%;
 	animation: type3 16s forwards steps(70, end);
-}
+	}
 
 .about .container .row .col-md-12 .blurb.triggered#l7 {
 	animation: type3 19s forwards steps(36, end);
@@ -210,71 +206,100 @@ p.hover-text {
 .typinganimation {
   animation: type3 5s steps(35, end),
   blink 1s infinite;
-}
+	}
 
 @keyframes blink {
   to{opacity: 0;}
-}
+	}
 
 @keyframes type {
 	from {width: 0%; }
 	to {width: 100%; }
-}
+	}
 
 @keyframes type2 {
 	0% {width: 0;}
 	50% {width: 0;}
 	100% {width 100%;}
-}
+	}
 
 @keyframes type3 {
 	0% {width: 0;}
 	60% {width: 0;}
 	100% {width 100%;}
-}
-
+	}
 
 .projects {
-	height: 300%;
+	height: 350%;
 	background-color: #b3dcfa;
 	padding-top: 75px;
 	text-align: center;
-}
+	}
 
+.Project {
+	padding-bottom: 5%;
+}	
+	
+.ProjectTitle {
+	padding-bottom: 3%;
+	padding-top: 5%;
+	}
+	
 .Beerd {
-	padding-top: 10%;
-}
-
-.BeerdTitle {
-	padding-bottom: 2.5%;
+	margin: 2.5% 0 2.5% 0;
+	border: 1px solid gray;
+	border-radius: 5px;
+	}
+	
+.Beerd #BeerdTitle {
+	padding-top: 0;
 }
 
 .projectgit {
 	font-size: 200%;
-}
+	}
 
 .Beerd-Pictures img {
 	display: inline-block;
 	width: 30%;
 	height: 30%;
 	padding: 5% 2.5% 5% 2.5%;
+	}
+
+.Connect4 {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 2.5% 0 2.5% 0;
 }
-
-.Connect4Title {
-	padding-bottom: 2.5%;
-	padding-top: 10%;
-}
-
-
+	
 .Connect4-Pictures img {
 	display: inline-block;
 	width: 45%;
 	height: 45%;
 	padding: 5% 2.5% 5% 2.5%;
+	}
+	
+.Tester {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 2.5% 0 2.5% 0;
+}	
+	
+.Tester-Pictures img {
+	padding: 5% 2.5% 5% 2.5%;
+}	
+	
+#TestRun {
+	height: 10%;
+	width: 60%;
 }
 
 @media only screen and (max-width: 400px) {
 	
+	
+	.home {
+		height: 150%;
+	}
 	
 	.about {
 		height: 100%;
@@ -335,7 +360,7 @@ p.hover-text {
 	white-space: normal;
 	width: initial;
 	font-size: 150%;
-}
+	}
 	
 }
 
