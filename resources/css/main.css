@@ -230,16 +230,19 @@ p.hover-text {
 	}
 
 .projects {
-	height: 350%;
+	height: 400%;
 	background-color: #b3dcfa;
 	padding-top: 75px;
 	text-align: center;
 	}
 
-.Project {
-	padding-bottom: 5%;
-}	
+.underline {
+	padding: 0 0 5% 4%;
+	width: 25%;
+	height: 15%;
 	
+}
+
 .ProjectTitle {
 	padding-bottom: 3%;
 	padding-top: 5%;
@@ -373,6 +376,8 @@ p.hover-text {
 	.fa.fa-file-pdf-o {
 		font-size: 50px;
 	}
+	
+	
 	
 }
 
